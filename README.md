@@ -745,7 +745,7 @@ To start `proxy.py` server from imported `proxy.py` module, simply do:
 import proxy
 
 if __name__ == '__main__':
-  proxy.main(['--hostname', '::1', '--port', 8899])
+  proxy.main(['--hostname', '::1', '--port', '8899'])
 ```
 
 See [Internal Documentation](#internal-documentation)
